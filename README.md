@@ -5,6 +5,9 @@ Official Implementation of "Expanding Scene Graph Boundaries: Fully Open-vocabul
 ![OvSGG](figures/OvSGG.png)
 ![OvSGTR](figures/OvSGTR.png)
 
+## News
+- [ ] add checkpoints for the TPAMI version
+
 ## Setup
 For simplicity, you can directly run ```bash install.sh```, which includes the following steps: 
 
@@ -80,6 +83,12 @@ with multiple GPUs (there is a slight difference of the result output by DINO_ev
       <td>config/GroundingDINO_SwinT_OGC_full.py</td>
     </tr>
     <tr>
+      <td>Swin-T (w. pre-trained on [MegaSG](https://arxiv.org/pdf/2411.15435) dataset) </td>
+      <td> 27.34 / 36.27 / 41.95 </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-full-swint-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinT_OGC_full.py</td>
+    </tr>
+    <tr>
       <td>Swin-B</td>
       <td> 27.75 / 36.44 / 42.35 </td>
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-swinb-full.pth">link</a>
@@ -91,6 +100,12 @@ with multiple GPUs (there is a slight difference of the result output by DINO_ev
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-swinb-full-open.pth">link</a>
       <td>config/GroundingDINO_SwinB_full_open.py </td>
     </tr>
+    <tr>
+      <td>Swin-B (w. pre-trained on MegaSG dataset) </td>
+      <td> 28.61 / 37.58 / 43.41 </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-full-swinb-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinB_full_open.py</td>
+    </tr>      
   </tbody>
 </table> 
 
@@ -129,6 +144,20 @@ For PREDCLS, please set ```use_gt_box=True``` when calling inference scripts.
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovd-swinb.pth">link</a>
       <td>config/GroundingDINO_SwinB_ovd.py</td>
     </tr>
+    <tr>
+      <td>Swin-T (w. pre-trained on MegaSG dataset) </td>
+      <td> 14.33 / 20.91 / 25.98 </td>
+      <td> 10.52 / 17.30 / 22.90 </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovd-swint-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinT_OGC_ovd.py</td>
+    </tr>  
+    <tr>
+      <td>Swin-B (w. pre-trained on MegaSG dataset) </td>
+      <td> 15.21 / 21.21 / 26.12 </td>
+      <td> 10.31 / 15.78 / 20.47 </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovd-swinb-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinT_OGC_ovd.py</td>
+    </tr> 
   </tbody>
 </table> 
 
