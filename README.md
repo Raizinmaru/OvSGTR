@@ -198,6 +198,24 @@ Base object categories ```VG150_BASE_PREDICATE``` and novel object categories ``
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-pretrain-coco-swinb.pth">link</a>
       <td>config/GroundingDINO_SwinB_pretrain.py</td>
     </tr>
+    <tr>
+      <td>Swin-T (pretrained on MegaSG)</td>
+      <td>  19.38 / 25.40 / 29.71 </td>
+      <td>  12.23 / 17.02 / 21.15 </td> 
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovr-swint-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinT_OGC_ovr.py</td>
+      <td><a href=""><s>link</s></a></td>
+      <td>config/GroundingDINO_SwinT_OGC_pretrain.py</td> 
+    </tr>
+    <tr>
+      <td>Swin-B (pretrained on MegaSG) </td>
+      <td>  21.09 / 27.92 / 32.74  </td>
+      <td>  16.59 / 22.86 / 27.73  </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovr-swinb-mega-best.pth">link</a>
+      <td>config/GroundingDINO_SwinB_ovr.py</td>
+      <td><a href=""><s>link</s></a>
+      <td>config/GroundingDINO_SwinB_pretrain.py</td>
+    </tr>      
   </tbody>
 </table> 
 
@@ -238,6 +256,26 @@ For OvD+R-SGG mode, set both ```sg_ovd_mode = True``` and ```sg_ovr_mode = True`
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovdr-swinb.pth">link</a>
       <td>config/GroundingDINO_SwinB_ovdr.py</td>
       <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-pretrain-coco-swinb.pth">link</a>
+      <td>config/GroundingDINO_SwinB_pretrain.py</td>
+    </tr>
+    <tr>
+      <td>Swin-T (pretrained on MegaSG) </td>
+      <td> 10.67 / 15.15 / 18.82  </td>
+      <td> 8.22 / 12.49 / 16.29  </td>
+      <td>  9.62 / 13.68 / 17.19 </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovdr-swint-mega-best.pth">link</a></td>
+      <td>config/GroundingDINO_SwinT_OGC_ovdr.py</td>
+      <td><a href=""><s>link</s></a></td>
+      <td>config/GroundingDINO_SwinT_OGC_pretrain.py</td> 
+    </tr>
+    <tr>
+      <td>Swin-B (pretrained on MegaSG) </td>
+      <td> 12.54 / 17.84 / 21.95  </td>
+      <td> 10.29 / 15.66 / 19.84  </td>
+      <td> 12.21 / 17.15 / 21.05  </td>
+      <td><a href="https://huggingface.co/JosephZ/OvSGTR/blob/main/vg-ovdr-swinb-mega-best.pth">link</a>
+      <td>config/GroundingDINO_SwinB_ovdr.py</td>
+      <td><a href=""><s>link</s></a>
       <td>config/GroundingDINO_SwinB_pretrain.py</td>
     </tr>
   </tbody>
