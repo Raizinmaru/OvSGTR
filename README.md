@@ -6,7 +6,8 @@ Official Implementation of "Expanding Scene Graph Boundaries: Fully Open-vocabul
 ![OvSGTR](figures/OvSGTR.png)
 
 ## News
-- [ ] add checkpoints for the TPAMI version
+- [ ] 2025.02: add checkpoints for the TPAMI version
+- [x] 2024.10: our paper has beed recognized as ``Best Paper Candidate'' (Milano, Italy, ECCV 2024)
 
 ## Setup
 For simplicity, you can directly run ```bash install.sh```, which includes the following steps: 
