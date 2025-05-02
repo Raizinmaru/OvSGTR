@@ -14,6 +14,7 @@
 ---
 
 ## 📰 News
+- [x] 2025.05: Release the dataset [MegaSG](https://huggingface.co/datasets/JosephZ/mega_1m) introduced in [Scene-Bench](https://arxiv.org/pdf/2411.15435)
 - [x] 2025.02: Add checkpoints for the TPAMI version
 - [x] 2024.10: Our paper has been recognized as **"Best Paper Candidate"** (Milan, Italy, ECCV 2024)
 
